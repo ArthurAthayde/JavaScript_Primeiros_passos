@@ -9,7 +9,7 @@ if(num1 > num2){
     alert(`O maior número é o ${num1} e a diferença é de ${subtracao}.`);
 }
 if(num2 > num1){
-    alert(`O maior número é o ${num2} e a diferença é de ${subtracao}.`);
+    alert(`O maior número é o ${num2} e a diferença é de ${subtracao * (-1)}.`);
 }
 
 
@@ -139,7 +139,7 @@ if(tipo == "4"){
 }
 
 if(area > 1000){
-    valorFinal = valorFinal * 0,95;
+    valorFinal = valorFinal * 0.95;
 }
 
 if(valorFinal > 750){
@@ -148,6 +148,7 @@ if(valorFinal > 750){
     valorFinal = valorFinal - valorMaior
 }
 alert (`O valor ser pago é de: R$${valorFinal.toFixed(2)}`);
+
 
 
 
@@ -176,4 +177,3 @@ if(tempo2){
 }if( tempo2 == 0){
     alert(`Valor inválido: o tempo de atraso deve ser em dias.`);
 }
-
