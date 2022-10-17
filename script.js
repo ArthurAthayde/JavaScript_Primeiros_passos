@@ -34,9 +34,11 @@ if(valor2 > valor1){
 
 let salario = parseInt(prompt("Qual o seu salário?"));
 let parcela = parseInt(prompt("Qual o valor da prestação do empréstimo?"));
-if(resultado = (parcela <= (salario*0,30))){
+
+if(parcela < (salario*0.30)){
 alert(`Empréstimo concedido.`);
-} else{
+} 
+if(parcela > (salario*0.30)){
 alert(`Empréstimo não condedido.`);
 }   
 
