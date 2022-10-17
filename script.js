@@ -5,6 +5,10 @@ let num2 = parseInt(prompt("Digite outro número inteiro"));
 
 let subtracao = (num1 - num2);
 
+if(num1 == num2){
+    alert(`Os números são iguais e a difereça é zero.`)
+}
+
 if(num1 > num2){
     alert(`O maior número é o ${num1} e a diferença é de ${subtracao}.`);
 }
