@@ -20,8 +20,8 @@ if(num2 > num1){
 
 
 
-let valor1 = parseInt(prompt("Digite um número inteiro"));
-let valor2 = parseInt(prompt("Digite outro valor inteiro"));
+let valor1 = parseFloat(prompt("Digite um número inteiro"));
+let valor2 = parseFloat(prompt("Digite outro valor inteiro"));
 
 if(valor1 == valor2){
     alert(`Números iguais`)
