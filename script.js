@@ -1,7 +1,7 @@
 
 
-let num1 = parseInt(prompt("Digite um número inteiro"));
-let num2 = parseInt(prompt("Digite outro número inteiro"));
+let num1 = parseFloat(prompt("Digite um número inteiro"));
+let num2 = parseFloat(prompt("Digite outro número inteiro"));
 
 let subtracao = (num1 - num2);
 
@@ -10,10 +10,10 @@ if(num1 == num2){
 }
 
 if(num1 > num2){
-    alert(`O maior número é o ${num1} e a diferença é de ${subtracao}.`);
+    alert(`O maior número é o ${num1} e a diferença é de ${subtracao.toFixed(2)}.`);
 }
 if(num2 > num1){
-    alert(`O maior número é o ${num2} e a diferença é de ${subtracao * (-1)}.`);
+    alert(`O maior número é o ${num2} e a diferença é de ${subtracao.toFixed(2) * (-1)}.`);
 }
 
 
